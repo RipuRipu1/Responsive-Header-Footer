@@ -20,6 +20,11 @@
     z-index: 1000;
 }
 
+.navbar-anchors{
+    display: flex;
+    gap: 2.5rem;
+}
+
 .navbar-anchors a{
     color: #fff;
     display: inline-block;
