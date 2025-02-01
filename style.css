@@ -19,3 +19,14 @@
     right: 0;
     z-index: 1000;
 }
+
+.navbar-anchors a{
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    margin: 0 0.2rem;
+}
+
+#hamburger-menu{
+    display: none;
+}
