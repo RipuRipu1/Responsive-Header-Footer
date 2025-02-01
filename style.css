@@ -9,9 +9,9 @@
 
 .navbar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 1.25rem 17%;
+    padding: 2rem 7rem;
     background-color: black;
     position: fixed;
     top: 0;
@@ -20,9 +20,14 @@
     z-index: 1000;
 }
 
+.navbar .nav-logo{
+    color: #fff;
+}
+
 .navbar-anchors{
     display: flex;
     gap: 2.5rem;
+    margin-left: auto;
 }
 
 .navbar-anchors a{
