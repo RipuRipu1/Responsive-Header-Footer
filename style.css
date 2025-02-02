@@ -41,3 +41,33 @@
 #hamburger-menu{
     display: none;
 }
+
+@media (max-width: 768px) {
+    .navbar{
+        padding: 1rem 3rem;
+    }
+    #hamburger-menu {
+        display: inline-block;
+        color: #fff;
+        font-size: 27px;
+    }
+
+    .navbar .navbar-anchors{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 20rem;
+        height: 80vh;
+        transition: .35s linear;
+    }
+
+    .navbar .navbar-anchors a{
+        display: block;
+        margin: 1.5rem;
+        font-size: 18px;
+    }
+
+    .navbar .navbar-anchors.active{
+        right: 0;
+    }
+}
