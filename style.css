@@ -7,6 +7,7 @@
     text-decoration: none;
 }
 
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -48,6 +49,9 @@
 }
 
 @media (max-width: 768px) {
+    .navbar{
+        padding: 1rem 3rem;
+    }
     #hamburger-menu {
         display: inline-block;
         color: #fff;
@@ -62,14 +66,16 @@
         top: 100%;
         right: -100%;
         background: black;
-        width: 20rem;
+        width: 100%;
         height: 100vh;
         transition: 0.5s linear;
     }
 
     .navbar .navbar-anchors a{
         display: block;
+        font-size: 1.6rem;
         margin-top: 1rem;
+        padding: 1rem;
         text-align: center;
     }
 
