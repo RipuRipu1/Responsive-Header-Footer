@@ -20,6 +20,11 @@
     z-index: 1000;
 }
 
+.navbar .side-navbar{
+    color: #fff;
+    margin: 0 .5rem;
+}
+
 .navbar .nav-logo{
     color: #fff;
     font-size: 2.5rem;
@@ -43,9 +48,6 @@
 }
 
 @media (max-width: 768px) {
-    .navbar{
-        padding: 1rem 3rem;
-    }
     #hamburger-menu {
         display: inline-block;
         color: #fff;
@@ -53,18 +55,22 @@
     }
 
     .navbar .navbar-anchors{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         position: absolute;
         top: 100%;
         right: -100%;
+        background: black;
         width: 20rem;
-        height: 80vh;
-        transition: .35s linear;
+        height: 100vh;
+        transition: 0.5s linear;
     }
 
     .navbar .navbar-anchors a{
         display: block;
-        margin: 1.5rem;
-        font-size: 18px;
+        margin-top: 1rem;
+        text-align: center;
     }
 
     .navbar .navbar-anchors.active{
