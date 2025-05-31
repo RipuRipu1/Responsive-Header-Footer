@@ -140,7 +140,7 @@ body{
 
     .navbar .navbar-anchors a{
         display: block;
-        font-size: 1.6rem;
+        font-size: 1.35rem;
         margin-top: 1rem;
         padding: 1rem;
         text-align: center;
@@ -150,4 +150,37 @@ body{
         right: 0;
     }
 
+    .hero h1{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .footer{
+        position: relative;
+        height: 50vh;
+        overflow: visible;
+    }
+
+    .footer .container{
+        display: block;
+    }
+    
+    .footer a{
+        display: block;
+        text-align: left;
+    }
+
+    .footer-col, .footer-social{
+        display: block;
+        padding-bottom: 1rem;
+        margin-top: 25px;
+    }
+
+    .footer-col a, .footer-social a{
+        margin-top: 15px;
+    }
+
+    .footer-social i{
+        font-size: 20px;
+    }
 }
