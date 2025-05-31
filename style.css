@@ -41,11 +41,16 @@ body{
 }
 
 .navbar-anchors a{
+    cursor: pointer;
     font-family: 'Nunito Sans', serif;
     color: #fff;
     display: inline-block;
     font-size: 17px;
     margin: 0 0.2rem;
+}
+
+.navbar-anchors a:hover, #name:hover, .footer-col a:hover{
+    border-bottom: 2px solid #f5182b;
 }
 
 #hamburger-menu{
@@ -99,10 +104,11 @@ body{
     color: #fff;
 }
 
-.footer a {
-    color: #fff;
-    text-align: center;
+.footer a{
     display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
 }
 
 @media (max-width: 812px) {
